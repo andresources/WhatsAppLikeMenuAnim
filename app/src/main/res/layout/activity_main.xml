@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/tv"
+        android:onClick="clickk"
+        android:background="@color/purple_200"
+        android:text="@string/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+        <LinearLayout
+            android:id="@+id/reveal_items"
+            android:background="#F8A7A7"
+            android:layout_alignParentRight="true"
+            android:visibility="invisible"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"  >
+
+            <LinearLayout
+                android:id="@+id/ll"
+                android:onClick="ccc"
+                android:background="@color/teal_200"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/iv11"
+                    android:onClick="ccc"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/ic_a" />
+
+                <TextView
+                    android:onClick="ccc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Gallery" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll1"
+                android:onClick="ccc"
+                android:background="@color/teal_200"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/iv1"
+                    android:onClick="ccc"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/ic_a" />
+
+                <TextView
+                    android:onClick="ccc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Gallery" />
+            </LinearLayout>
+            <!-- Other 2 icons here-->
+
+        </LinearLayout>
+
+
+</RelativeLayout>
