@@ -3,7 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Learning/WhatsAppLikeMenuAnim/app/src/main/res/drawable/button_shape.xml" value="0.14537037037037037" />
         <entry key="..\:/Learning/WhatsAppLikeMenuAnim/app/src/main/res/layout/activity_a1_menu_anim.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/WhatsAppLikeMenuAnim/app/src/main/res/layout/activity_a2_views_anim.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/WhatsAppLikeMenuAnim/app/src/main/res/layout/activity_a3_new.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/WhatsAppLikeMenuAnim/app/src/main/res/layout/activity_a4_new.xml" value="0.16145833333333334" />
+        <entry key="..\:/Learning/WhatsAppLikeMenuAnim/app/src/main/res/layout/activity_a5_new.xml" value="0.159375" />
+        <entry key="..\:/Learning/WhatsAppLikeMenuAnim/app/src/main/res/layout/activity_a6_new.xml" value="0.159375" />
         <entry key="..\:/Learning/WhatsAppLikeMenuAnim/app/src/main/res/layout/activity_main.xml" value="0.16145833333333334" />
         <entry key="..\:/Learning/WhatsAppLikeMenuAnim/app/src/main/res/xml/menu_reveal.xml" value="0.17552083333333332" />
       </map>

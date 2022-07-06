@@ -1,7 +1,7 @@
 package com.whatapplikemenuanim;
 
-import static com.utils.RevealAnimUtil.enterReveal1;
-import static com.utils.RevealAnimUtil.exitReveal1;
+import static com.utils.RevealAnimUtil.enterRevealView;
+import static com.utils.RevealAnimUtil.exitRevealView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -17,11 +17,13 @@ import com.utils.RevealAnimUtil;
 public class A1_MenuAnimActivity extends AppCompatActivity {
     //https://guides.codepath.com/android/circular-reveal-animation
     LinearLayout mRevealView;
+    private android.transition.Transition.TransitionListener mEnterTransitionListener;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mRevealView = findViewById(R.id.reveal_items);
+
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -35,9 +37,9 @@ public class A1_MenuAnimActivity extends AppCompatActivity {
             case R.id.action_clip:
                 //if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
                     if (mRevealView.getVisibility() == View.INVISIBLE) {
-                        enterReveal1(mRevealView, RevealAnimUtil.AnimPositions.HORIZONTAL_CENTER,350);
+                        enterRevealView(mRevealView, RevealAnimUtil.AnimPositions.HORIZONTAL_CENTER,350);
                     } else {
-                        exitReveal1(mRevealView, RevealAnimUtil.AnimPositions.HORIZONTAL_CENTER,350);
+                        exitRevealView(mRevealView, RevealAnimUtil.AnimPositions.HORIZONTAL_CENTER,350);
                     }
                 return true;
 

@@ -9,9 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WhatsAppLikeMenuAnim">
+        <activity
+            android:name=".A6_New_Activity"
+            android:theme="@style/AppTheme"
+            android:exported="false" />
 
         <activity
+            android:name=".A4_New_Activity"
+            android:exported="false"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
             android:name=".A1_MenuAnimActivity"
+            android:exported="false" />
+        <!---->
+        <activity
+            android:name=".A5_New_Activity"
+            android:theme="@style/AppTheme"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
